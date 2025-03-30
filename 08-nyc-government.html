@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York City Government</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            });
+    </script>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    <main>
+        <article>
+            <!-- Page title -->
+            <h1 class="section-title">
+                NEW YORK CITY GOVERNMENT
+            </h1>
+            
+            <!-- Introduction -->
+            <h2>INTRODUCTION</h2>
+            <p>
+                New York City is the largest city in the United States, with over 8 million people living in its five boroughs: Manhattan, Brooklyn, Queens, the Bronx, and Staten Island. A city this big needs a special government to help it run smoothly. New York City has what's called a "mayor-council" form of government.
+            </p>
+            <img src="images/nyc_skyline.jpg" alt="New York City Skyline with Five Boroughs">
+            
+            <!-- The Mayor: New York City's Leader -->
+            <h2>THE MAYOR: NEW YORK CITY'S LEADER</h2>
+            
+            <!-- Who is the Mayor? -->
+            <h3>WHO IS THE MAYOR?</h3>
+            <p>
+                The mayor is the chief executive of New York City. This means the mayor is the top leader who runs the city government. The mayor is elected by the people of New York City and serves for four years. After four years, there is another election, and the mayor can run again.
+            </p>
+            <img src="images/nyc_mayor.jpg" alt="New York City Mayor at City Hall">
+            
+            <!-- What Does the Mayor Do? -->
+            <h3>WHAT DOES THE MAYOR DO?</h3>
+            <p>
+                The mayor has many important jobs:
+            </p>
+            <ul>
+                <li>Proposes the city's budget (plan for how to spend money)</li>
+                <li>Appoints (chooses) the heads of city agencies</li>
+                <li>Makes sure city services like police, fire, sanitation, and schools are working well</li>
+                <li>Represents the city when meeting with other government officials</li>
+                <li>Signs or vetoes (rejects) laws passed by the City Council</li>
+            </ul>
+            <p>
+                The mayor works at City Hall, a beautiful building in lower Manhattan.
+            </p>
+            <img src="images/nyc_city_hall.jpg" alt="New York City Hall">
+            
+            <!-- The City Council: New York City's Lawmakers -->
+            <h2>THE CITY COUNCIL: NEW YORK CITY'S LAWMAKERS</h2>
+            
+            <!-- What is the City Council? -->
+            <h3>WHAT IS THE CITY COUNCIL?</h3>
+            <p>
+                The City Council is New York City's legislative body. This means they make the laws for the city. The City Council has 51 members, each representing a different district (area) of the city.
+            </p>
+            <img src="images/nyc_city_council.jpg" alt="New York City Council in Session">
+            
+            <!-- What Does the City Council Do? -->
+            <h3>WHAT DOES THE CITY COUNCIL DO?</h3>
+            <p>
+                The City Council has several important jobs:
+            </p>
+            <ul>
+                <li>Makes laws for the city</li>
+                <li>Approves the city's budget</li>
+                <li>Monitors city agencies to make sure they're doing their jobs well</li>
+                <li>Holds public hearings where citizens can share their opinions</li>
+                <li>Can override the mayor's veto with a two-thirds vote</li>
+            </ul>
+            <img src="images/city_council_meeting.jpg" alt="City Council Meeting with Public Participation">
+            
+            <!-- Other Important City Officials -->
+            <h2>OTHER IMPORTANT CITY OFFICIALS</h2>
+            
+            <!-- The Public Advocate -->
+            <h3>THE PUBLIC ADVOCATE</h3>
+            <p>
+                The Public Advocate is like a watchdog for the people. This person:
+            </p>
+            <ul>
+                <li>Helps citizens with complaints about city services</li>
+                <li>Reviews and investigates problems in city agencies</li>
+                <li>Becomes mayor temporarily if the mayor cannot serve</li>
+                <li>Is elected by the people of New York City</li>
+            </ul>
+            <img src="images/public_advocate.jpg" alt="New York City Public Advocate">
+            
+            <!-- The Comptroller -->
+            <h3>THE COMPTROLLER</h3>
+            <p>
+                The Comptroller is like the city's chief financial officer. This person:
+            </p>
+            <ul>
+                <li>Audits (checks) city agencies to make sure they're spending money properly</li>
+                <li>Manages the city's pension funds (money saved for city workers' retirement)</li>
+                <li>Reviews city contracts</li>
+                <li>Is elected by the people of New York City</li>
+            </ul>
+            <img src="images/comptroller.jpg" alt="New York City Comptroller">
+            
+            <!-- Borough Presidents -->
+            <h3>BOROUGH PRESIDENTS</h3>
+            <p>
+                Each of New York City's five boroughs has a Borough President. These officials:
+            </p>
+            <ul>
+                <li>Advocate for their borough's needs</li>
+                <li>Recommend projects for their borough</li>
+                <li>Appoint members to Community Boards</li>
+                <li>Are elected by the people of their borough</li>
+            </ul>
+            <img src="images/borough_presidents.jpg" alt="The Five Borough Presidents of New York City">
+            
+            <!-- How Officials are Elected -->
+            <h2>HOW OFFICIALS ARE ELECTED</h2>
+            <p>
+                New York City holds elections to choose its government officials:
+            </p>
+            <ol>
+                <li><strong>Primary Elections</strong>: First, each political party holds a primary election to choose their candidate.</li>
+                <li><strong>General Election</strong>: Then, all the candidates from different parties compete in the general election.</li>
+                <li><strong>Voting</strong>: To vote, you must be:
+                    <ul>
+                        <li>A U.S. citizen</li>
+                        <li>At least 18 years old</li>
+                        <li>A resident of New York City</li>
+                        <li>Registered to vote</li>
+                    </ul>
+                </li>
+                <li><strong>Term Limits</strong>: Most city officials can only serve for two or three terms (8 or 12 years) to make sure new people get a chance to serve.</li>
+            </ol>
+            <img src="images/nyc_voting.jpg" alt="New York City Residents Voting">
+            
+            <!-- How Citizens Can Participate -->
+            <h2>HOW CITIZENS CAN PARTICIPATE</h2>
+            <p>
+                Even if you're too young to vote, there are ways to participate in city government:
+            </p>
+            <ul>
+                <li>Attend Community Board meetings</li>
+                <li>Write letters to your City Council member</li>
+                <li>Visit City Hall</li>
+                <li>Learn about issues affecting your neighborhood</li>
+                <li>Volunteer for community projects</li>
+            </ul>
+            <p>
+                New York City's government works best when citizens are informed and involved!
+            </p>
+            <img src="images/citizen_participation.jpg" alt="Citizens Participating in Local Government">
+            
+            <!-- Vocabulary -->
+            <h2>VOCABULARY</h2>
+            <p>
+                <strong>Mayor:</strong> The elected leader of a city who runs the city government.
+            </p>
+            <p>
+                <strong>Borough:</strong> One of the five major divisions of New York City (Manhattan, Brooklyn, Queens, the Bronx, and Staten Island).
+            </p>
+            <p>
+                <strong>Budget:</strong> A plan for how to spend money.
+            </p>
+            <p>
+                <strong>Public Advocate:</strong> A city official who helps citizens with complaints and watches over city agencies.
+            </p>
+            <p>
+                <strong>Term limits:</strong> Rules that limit how long an elected official can serve in office.
+            </p>
+            <img src="images/nyc_government_vocabulary.jpg" alt="New York City Government Vocabulary">
+        </article>
+    </main>
+</body>
+</html>

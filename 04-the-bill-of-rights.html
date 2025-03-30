@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bill of Rights</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            });
+    </script>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    <main>
+        <article>
+            <!-- Page title -->
+            <h1 class="section-title">
+                THE BILL OF RIGHTS
+            </h1>
+            
+            <!-- What is the Bill of Rights -->
+            <h2>WHAT IS THE BILL OF RIGHTS?</h2>
+            <p>
+                The Bill of Rights is the name for the first ten amendments to the United States Constitution. Amendments are changes or additions to the Constitution. The Bill of Rights lists important freedoms and rights that belong to all Americans.
+            </p>
+            <img src="images/bill_of_rights_document.jpg" alt="The Bill of Rights Document">
+            
+            <!-- Why was the Bill of Rights Created -->
+            <h2>WHY WAS THE BILL OF RIGHTS CREATED?</h2>
+            <p>
+                When the Constitution was first written in 1787, it did not include a list of individual rights. Many people worried that without a written list of rights, the new government might become too powerful and take away people's freedoms.
+            </p>
+            <p>
+                Some states said they would only approve the Constitution if a Bill of Rights was added. They wanted to make sure the government could not take away people's basic freedoms.
+            </p>
+            <img src="images/constitution_ratification.jpg" alt="Constitution Ratification Debate">
+            
+            <!-- Who Created the Bill of Rights -->
+            <h2>WHO CREATED THE BILL OF RIGHTS?</h2>
+            <p>
+                James Madison, who later became our fourth president, wrote the Bill of Rights. He studied the constitutions of different states and the ideas of important thinkers to decide which rights to include.
+            </p>
+            <img src="images/james_madison.jpg" alt="James Madison, Father of the Bill of Rights">
+            
+            <!-- How the Bill of Rights was Added -->
+            <h2>HOW THE BILL OF RIGHTS WAS ADDED</h2>
+            <p>
+                Here's how the Bill of Rights became part of our Constitution:
+            </p>
+            <ol>
+                <li>In 1789, James Madison presented 19 amendments to the first Congress.</li>
+                <li>Congress discussed these amendments and approved 12 of them.</li>
+                <li>These 12 amendments were sent to the states for approval.</li>
+                <li>On December 15, 1791, Virginia became the 11th state to approve the amendments, which meant that 10 of the 12 amendments had been approved by enough states to become part of the Constitution.</li>
+                <li>These 10 amendments became known as the Bill of Rights.</li>
+            </ol>
+            <img src="images/bill_of_rights_timeline.jpg" alt="Timeline of the Bill of Rights">
+            
+            <!-- Important Rights in the Bill of Rights -->
+            <h2>IMPORTANT RIGHTS IN THE BILL OF RIGHTS</h2>
+            <p>
+                The Bill of Rights protects many freedoms that Americans value. Here are some of the most important rights it includes:
+            </p>
+            <ul>
+                <li>Freedom of religion, speech, press, assembly, and petition (First Amendment)</li>
+                <li>Right to keep and bear arms (Second Amendment)</li>
+                <li>Protection from having soldiers stay in your home during peacetime (Third Amendment)</li>
+                <li>Protection from unreasonable searches and seizures (Fourth Amendment)</li>
+                <li>Right to due process of law and protection from being tried twice for the same crime (Fifth Amendment)</li>
+                <li>Right to a fair and speedy trial (Sixth Amendment)</li>
+                <li>Right to a trial by jury in civil cases (Seventh Amendment)</li>
+                <li>Protection from excessive bail or cruel punishment (Eighth Amendment)</li>
+                <li>Statement that people have other rights not listed in the Constitution (Ninth Amendment)</li>
+                <li>Statement that powers not given to the federal government belong to the states or the people (Tenth Amendment)</li>
+            </ul>
+            <img src="images/bill_of_rights_amendments.jpg" alt="The Ten Amendments in the Bill of Rights">
+            
+            <!-- Why the Bill of Rights is Important -->
+            <h2>WHY THE BILL OF RIGHTS IS IMPORTANT</h2>
+            <p>
+                The Bill of Rights is important because it protects the rights and freedoms of individuals and groups. It limits what the government can do and ensures that all Americans have certain basic rights that cannot be taken away. Even today, more than 200 years after it was written, the Bill of Rights continues to protect the freedoms that make America special.
+            </p>
+            <img src="images/bill_of_rights_importance.jpg" alt="The Importance of the Bill of Rights">
+            
+            <!-- Vocabulary -->
+            <h2>VOCABULARY</h2>
+            <p>
+                <strong>Amendments:</strong> Changes or additions made to the Constitution.
+            </p>
+            <p>
+                <strong>Rights:</strong> Freedoms or protections that belong to all people.
+            </p>
+            <p>
+                <strong>Due process:</strong> Fair treatment through the normal judicial system.
+            </p>
+            <p>
+                <strong>Petition:</strong> A formal written request to the government.
+            </p>
+            <p>
+                <strong>Civil cases:</strong> Legal disputes between people or organizations, not criminal cases.
+            </p>
+            <img src="images/bill_of_rights_vocabulary.jpg" alt="Bill of Rights Vocabulary">
+        </article>
+    </main>
+</body>
+</html>

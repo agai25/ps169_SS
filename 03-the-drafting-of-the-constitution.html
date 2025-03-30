@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Drafting of the Constitution</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            });
+    </script>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    <main>
+        <article>
+            <!-- Page title -->
+            <h1 class="section-title">
+                THE DRAFTING OF THE CONSTITUTION
+            </h1>
+            
+            <!-- Constitutional Convention -->
+            <h2>THE CONSTITUTIONAL CONVENTION</h2>
+            <p>
+                In the summer of 1787, a special meeting called the Constitutional Convention took place in Philadelphia, Pennsylvania. Fifty-five men from twelve states (Rhode Island didn't send anyone) came together to create a new plan for America's government. They met in the Pennsylvania State House, which is now called Independence Hall - the same building where the Declaration of Independence was signed eleven years earlier.
+            </p>
+            <img src="images/constitutional_convention.jpg" alt="The Constitutional Convention in Philadelphia">
+            
+            <!-- The People Who Wrote the Constitution -->
+            <h2>THE PEOPLE WHO WROTE THE CONSTITUTION</h2>
+            <p>
+                The men who wrote the Constitution were called the Framers. Some important Framers were:
+            </p>
+            <ul>
+                <li>George Washington from Virginia, who led the meeting</li>
+                <li>James Madison from Virginia, who took detailed notes and suggested many ideas</li>
+                <li>Benjamin Franklin from Pennsylvania, who was the oldest person there at 81 years old</li>
+                <li>Alexander Hamilton from New York, who wanted a strong national government</li>
+            </ul>
+            <p>
+                These men were lawyers, farmers, merchants, and leaders in their communities. They were well-educated and wanted to create a better government for the new nation.
+            </p>
+            <img src="images/framers.jpg" alt="The Framers of the Constitution">
+            
+            <!-- Why They Needed a New Plan -->
+            <h2>WHY THEY NEEDED A NEW PLAN</h2>
+            <p>
+                Before the Constitution, America had a different set of rules called the Articles of Confederation. This plan wasn't working well because:
+            </p>
+            <ul>
+                <li>The national government was too weak</li>
+                <li>It couldn't collect taxes to pay its bills</li>
+                <li>It couldn't solve problems between states</li>
+                <li>It couldn't protect American trade with other countries</li>
+            </ul>
+            <img src="images/articles_of_confederation.jpg" alt="The Articles of Confederation">
+            
+            <!-- Disagreements About the Government -->
+            <h2>DISAGREEMENTS ABOUT THE GOVERNMENT</h2>
+            <p>
+                The Framers didn't always agree on how the new government should work. They had big disagreements about:
+            </p>
+            <img src="images/disagreements.jpg" alt="Disagreements at the Constitutional Convention">
+            
+            <!-- Size of Government -->
+            <h3>Size of Government</h3>
+            <ul>
+                <li>Some people, like Alexander Hamilton, wanted a strong federal (national) government</li>
+                <li>Others, like George Mason, worried that a strong federal government might take away states' rights and individual freedoms</li>
+            </ul>
+            <img src="images/size_of_government.jpg" alt="Debates about the Size of Government">
+            
+            <!-- Representation in Congress -->
+            <h3>Representation in Congress</h3>
+            <ul>
+                <li>Large states wanted representation based on population (more people = more votes)</li>
+                <li>Small states wanted equal representation (each state gets the same number of votes)</li>
+                <li>They solved this with the Great Compromise: two parts of Congress - the House of Representatives (based on population) and the Senate (two senators per state)</li>
+            </ul>
+            <img src="images/great_compromise.jpg" alt="The Great Compromise">
+            
+            <!-- Slavery -->
+            <h3>Slavery</h3>
+            <ul>
+                <li>Northern states wanted to count only free people for representation</li>
+                <li>Southern states wanted to count enslaved people too</li>
+                <li>They made the Three-Fifths Compromise, which counted each enslaved person as three-fifths of a person for representation (this unfair rule was later changed after the Civil War)</li>
+            </ul>
+            <img src="images/three_fifths_compromise.jpg" alt="The Three-Fifths Compromise">
+            
+            <!-- Finishing the Constitution -->
+            <h2>FINISHING THE CONSTITUTION</h2>
+            <p>
+                After four months of debates and compromises, the Framers finished writing the Constitution on September 17, 1787. Thirty-nine of the Framers signed it. Then it had to be approved by at least nine states before it could become the law of the land.
+            </p>
+            <p>
+                The Constitution created our system of government with three branches - legislative, executive, and judicial - and a system of checks and balances to make sure no part of the government became too powerful.
+            </p>
+            <img src="images/signing_constitution.jpg" alt="Signing of the Constitution">
+            
+            <!-- Vocabulary -->
+            <h2>VOCABULARY</h2>
+            <p>
+                <strong>Framers:</strong> The people who wrote the Constitution.
+            </p>
+            <p>
+                <strong>Constitutional Convention:</strong> The meeting in Philadelphia where the Constitution was written.
+            </p>
+            <p>
+                <strong>Articles of Confederation:</strong> The first plan of government for the United States that was replaced by the Constitution.
+            </p>
+            <p>
+                <strong>Compromise:</strong> When people give up some of what they want to reach an agreement.
+            </p>
+            <p>
+                <strong>Ratify:</strong> To approve or accept officially.
+            </p>
+            <img src="images/vocabulary_constitution.jpg" alt="Constitution Vocabulary">
+        </article>
+    </main>
+</body>
+</html>

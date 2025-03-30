@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York State Government</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('navbar-container').innerHTML = data;
+            });
+    </script>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+    <main>
+        <article>
+            <!-- Page title -->
+            <h1 class="section-title">
+                NEW YORK STATE GOVERNMENT
+            </h1>
+            
+            <!-- Introduction -->
+            <h2>INTRODUCTION</h2>
+            <p>
+                Just like the United States has a government, New York State has its own government too. The New York State government makes decisions and laws that affect people living in New York. This document will explain how New York's government is structured and how it is similar to and different from the federal government.
+            </p>
+            <img src="images/ny_state_capitol.jpg" alt="New York State Capitol Building in Albany">
+            
+            <!-- The Three Branches -->
+            <h2>THE THREE BRANCHES</h2>
+            <p>
+                Like the federal government, New York State's government has three branches:
+            </p>
+            <img src="images/ny_three_branches.jpg" alt="Three Branches of New York State Government">
+            
+            <!-- The Legislative Branch -->
+            <h3>THE LEGISLATIVE BRANCH</h3>
+            <p>
+                The Legislative Branch makes laws for New York State. It is called the New York State Legislature and has two parts:
+            </p>
+            <ul>
+                <li><strong>The State Senate</strong>: This is like the U.S. Senate, but it has 63 members who represent different parts of New York State.</li>
+                <li><strong>The State Assembly</strong>: This is like the U.S. House of Representatives, but it has 150 members. Each member represents a district in New York State.</li>
+            </ul>
+            <p>
+                Together, the Senate and Assembly discuss and vote on bills (proposed laws). If both houses pass a bill, it goes to the Governor.
+            </p>
+            <img src="images/ny_legislature.jpg" alt="New York State Legislature">
+            
+            <!-- The Executive Branch -->
+            <h3>THE EXECUTIVE BRANCH</h3>
+            <p>
+                The Executive Branch carries out and enforces the laws. The head of this branch is:
+            </p>
+            <ul>
+                <li><strong>The Governor</strong>: The Governor is like the President for New York State. The Governor is elected by the people of New York for a four-year term. The current Governor works in Albany, the capital city of New York.</li>
+            </ul>
+            <p>
+                The Governor also has helpers, including:
+            </p>
+            <ul>
+                <li>The Lieutenant Governor</li>
+                <li>The Attorney General</li>
+                <li>The Comptroller</li>
+                <li>Various state agencies and departments</li>
+            </ul>
+            <img src="images/ny_governor.jpg" alt="New York State Governor's Office">
+            
+            <!-- The Judicial Branch -->
+            <h3>THE JUDICIAL BRANCH</h3>
+            <p>
+                The Judicial Branch interprets laws and resolves disputes. New York's court system includes:
+            </p>
+            <ul>
+                <li><strong>The Court of Appeals</strong>: This is New York's highest court, similar to the U.S. Supreme Court.</li>
+                <li><strong>Supreme Courts</strong>: Despite their name, these are not the highest courts! They handle major civil and criminal cases.</li>
+                <li><strong>County Courts, Family Courts, and other local courts</strong>: These handle different types of cases.</li>
+            </ul>
+            <img src="images/ny_court_of_appeals.jpg" alt="New York Court of Appeals">
+            
+            <!-- Similarities to the Federal Government -->
+            <h2>SIMILARITIES TO THE FEDERAL GOVERNMENT</h2>
+            <p>
+                New York's government is similar to the federal government in several ways:
+            </p>
+            <ol>
+                <li><strong>Three Branches</strong>: Both have legislative, executive, and judicial branches.</li>
+                <li><strong>Checks and Balances</strong>: Each branch can check the power of the others.</li>
+                <li><strong>Two-House Legislature</strong>: Both have a legislature with two chambers.</li>
+                <li><strong>Bill Process</strong>: The process for how a bill becomes a law is similar.</li>
+                <li><strong>Elections</strong>: People vote to elect their representatives.</li>
+            </ol>
+            <img src="images/government_similarities.jpg" alt="Similarities Between State and Federal Government">
+            
+            <!-- Differences from the Federal Government -->
+            <h2>DIFFERENCES FROM THE FEDERAL GOVERNMENT</h2>
+            <p>
+                There are also important differences:
+            </p>
+            <ol>
+                <li><strong>Names and Numbers</strong>: New York has 63 State Senators and 150 Assembly Members, while the U.S. has 100 Senators and 435 Representatives.</li>
+                <li><strong>Court Names</strong>: In New York, the "Supreme Court" is not the highest court. The Court of Appeals is the highest court in New York.</li>
+                <li><strong>Constitution</strong>: New York has its own State Constitution, which is different from the U.S. Constitution.</li>
+                <li><strong>Powers</strong>: The New York State government can only make laws for New York, while the federal government makes laws for the entire country.</li>
+                <li><strong>Local Focus</strong>: New York's government focuses on issues like education, transportation, and local laws that affect daily life in New York.</li>
+            </ol>
+            <img src="images/government_differences.jpg" alt="Differences Between State and Federal Government">
+            
+            <!-- Working Together -->
+            <h2>WORKING TOGETHER</h2>
+            <p>
+                The federal government and New York State government often work together. Sometimes they share responsibilities for things like:
+            </p>
+            <ul>
+                <li>Education</li>
+                <li>Transportation</li>
+                <li>Healthcare</li>
+                <li>Environmental protection</li>
+            </ul>
+            <img src="images/government_cooperation.jpg" alt="Federal and State Government Cooperation">
+            
+            <!-- Conclusion -->
+            <h2>CONCLUSION</h2>
+            <p>
+                New York State's government, like the federal government, is designed to serve the people and protect their rights. By having a structure similar to the federal government, with three branches and checks and balances, New York's government helps ensure that power is balanced and that the government works for the benefit of all New Yorkers.
+            </p>
+            <img src="images/ny_government_conclusion.jpg" alt="New York State Government Serving the People">
+            
+            <!-- Vocabulary -->
+            <h2>VOCABULARY</h2>
+            <p>
+                <strong>Legislature:</strong> A group of people who have the power to make laws.
+            </p>
+            <p>
+                <strong>Governor:</strong> The elected leader of a state.
+            </p>
+            <p>
+                <strong>Court of Appeals:</strong> The highest court in New York State.
+            </p>
+            <p>
+                <strong>State Constitution:</strong> The set of basic rules that describes how a state government works.
+            </p>
+            <p>
+                <strong>Comptroller:</strong> A government official who oversees financial matters and spending.
+            </p>
+            <img src="images/ny_government_vocabulary.jpg" alt="New York Government Vocabulary">
+        </article>
+    </main>
+</body>
+</html>
